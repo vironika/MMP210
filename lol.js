@@ -9,8 +9,9 @@ var blueX = 55,
 
 var linecolor;
 
-var sY1 = 420;
+var sY1 = 425;
 var sY2= 440;
 var sY3 = 470;
 var sX = 20;
 var X = 80;
+
