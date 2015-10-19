@@ -3,72 +3,26 @@ function setup() {
 
     createCanvas(windowWidth, windowHeight);
     background(50,56,59);
+var x = 200;
+    var y =100;
 
-  //top box
-  strokeWeight(2);
+
+     strokeWeight(10);
   stroke('black');
-  fill('blue');
-  rect(200-30,100-40,260,40);
+  fill('');
+  rect(x-30,y-30,360,460);
 
-    strokeWeight(6);
-  stroke('darkblue');
-  fill('blue');
-  rect(200-20,100-30,240,20);
 
   //inside box
-  strokeWeight(1);
-  stroke('black');
-  fill('darkblue');
-  rect(200,100,200,200);
-
-  //bottom box
-  strokeWeight(2);
-  stroke('darkblue');
+  strokeWeight(10);
+  stroke('white');
   fill('blue');
-  rect(200-20,100+200,240,40);
+  rect(x,y,300,400);
 
-      strokeWeight(6);
-  stroke('darkblue');
-  fill('blue');
-  rect(200-10,100+210,220,20);
-
-
-  fill('yellow');
-    rect(210, 110, 85, 85, 30);
-    rect(210+100, 110, 85, 85, 30);
-    rect(210, 110+100, 85, 85, 30);
-    rect(210+100, 110+100, 85, 85, 30);
-
-   //left door
-  strokeWeight(2);
-  stroke('black');
-  fill('blue');
-  rect(200-100,100,100,200);
-
-     strokeWeight(10);
-  stroke('darkblue');
-  fill('blue');
-  rect(200-80,100+25,60, 65);
-      strokeWeight(10);
-  stroke('darkblue');
-  fill('blue');
-  rect(200-80,100+115,60, 65);
-
-
-   //right door
-  strokeWeight(2);
-  stroke('black');
-  fill('blue');
-  rect(200+200,100,100,200);
-
-     strokeWeight(10);
-  stroke('darkblue');
-  fill('blue');
-  rect(200+220,100+25,60, 65);
-      strokeWeight(10);
-  stroke('darkblue');
-  fill('blue');
-  rect(200+220,100+115,60, 65);
+    strokeWeight(20);
+    stroke('white')
+    line(x+150, y, x+150, y+400);
+    line(x, y+200, x+300, y+200);
 
 
 
