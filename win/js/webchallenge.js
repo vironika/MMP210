@@ -7,8 +7,8 @@ function setup() {
 
 
 
- var x = 200;
- var y = 100;
+ var x = 0;
+ var y = 0;
 var gridWidth = width - 100;
 for (var i = 0; i < 100; i++) {
     console.log(i);
@@ -24,7 +24,12 @@ for (var i = 0; i < 100; i++) {
          y+=270;}
 }
 
-}
+
+
+function drawWindow(startX, startY){
+    fill("peru");
+    rect(startX, startY, 100, 250);
+}}
 //    fill('blue')
 //    rect(startX, startY, 100,250)
 //    }
