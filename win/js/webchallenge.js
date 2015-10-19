@@ -6,7 +6,7 @@ function setup() {
 var x = 200;
     var y =100;
 
-
+drawWindow(){}
      strokeWeight(10);
   stroke('black');
   fill('');
